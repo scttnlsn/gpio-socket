@@ -1,0 +1,25 @@
+{
+  "name": "gpio-socket",
+  "version": "0.1.0",
+  "description": "GPIO control via WebSocket",
+
+  "author": {
+    "name": "Scott Nelson",
+    "email": "scott@scottnelson.co",
+    "web": "http://scottnelson.co"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/scttnlsn/gpio-socket.git"
+  },
+
+  "dependencies": {
+    "onoff": "1.0.2",
+    "ws": "0.8.0"
+  },
+
+  "devDependencies": {
+    "source-map-support": "0.2.8"
+  }
+}
