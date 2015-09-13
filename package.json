@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "description": "GPIO control via WebSocket",
 
+  "bin": {
+    "gpio-socket": "./bin/gpio-socket"
+  },
+
   "author": {
     "name": "Scott Nelson",
     "email": "scott@scottnelson.co",
