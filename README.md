@@ -6,9 +6,9 @@ GPIO control via WebSocket
 
     npm install -g gpio-socket
 
-## Run
+## Usage
 
-    gpio-socket
+    gpio-socket <port>
 
 ## Protocol
 

@@ -137,8 +137,11 @@
 
 (enable-console-print!)
 
-(defn -main [&args]
-  (listen 3000)
-  (println "Listening on port 3000"))
+(defn -main [& args]
+  (if-let [port (first args)]
+    (do
+      (listen port)
+      (println "Listening on port:" port))
+    (println "Usage: gpio-socket <port>")))
 
 (set! *main-cli-fn* -main)
