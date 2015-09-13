@@ -2,6 +2,14 @@
 
 GPIO control via WebSocket
 
+## Install
+
+    npm install -g gpio-socket
+
+## Run
+
+    gpio-socket
+
 ## Protocol
 
 #### Write
@@ -19,3 +27,7 @@ Subscribe to changes on the given pin.
 Change events will be of the form:
 
 `["change", pin, value]`
+
+## License
+
+MIT
