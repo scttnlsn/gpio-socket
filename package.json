@@ -7,6 +7,12 @@
     "gpio-socket": "./bin/gpio-socket"
   },
 
+  "scripts": {
+    "build": "lein cljsbuild once",
+    "clean": "rm -rf lib/ node_modules/ target/",
+    "prepublish": "npm run clean && npm run build"
+  },
+
   "author": {
     "name": "Scott Nelson",
     "email": "scott@scottnelson.co",
