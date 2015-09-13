@@ -1,8 +1,5 @@
-node_modules/
 target/
-lib/
 .lein-*
 .projectile
-
 project.clj
 src
